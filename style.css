@@ -1,0 +1,148 @@
+/*O asterisco"*" implementa o comando em todos os elementos do CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+/*Define a cor de fundo da tela ( tdo o body )*/
+    background-color: black;
+}
+
+.container{
+    /*Delimita o tamanha maximo da div*/
+    max-width: 1000px;
+    /*mantem a div centralizada na tela*/
+    margin: auto;
+}
+
+
+
+header{
+    background-color: #48c5ce;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+
+
+.title{
+    font-size: 26px;
+    text-shadow: 3px 0px 5px rgba(44, 43, 43, 0.712);
+    
+}
+
+section{
+    /*Espaçamento em relação ao topo e ao final da pagina, canto direito*/
+    padding: 20px;
+    background-image: url('./imagem/fundo.jpg');
+    /*comando para definir que a imagem mantenha seu tamanho original, e cubra toda a div*/
+    background-size: cover;
+    /*Propriedade overflow hidden fará com que a imagem preencha todo o espaço */
+    overflow: hidden;
+}
+
+.formContainer{
+    /*primeiro delimitamos o tamanho do container*/
+    max-width: 350px;
+    /*Alterar a cor de fundo, o BB é a trnapsrencia*/
+    background-color: #ffffff94;
+    /*Espaçamento entre os elementos*/
+    padding: 20px;
+    /*Comando para posicionar o elemento no lado Direito da tela*/
+    float: left;
+    border-radius: 15px;
+}
+
+
+
+h2{
+    /*alterando a fotne o texto em H2*/
+    font-size: 16px;
+}
+
+.mb{
+    /*alterando o tamanho da margem do botom*/
+    margin-bottom:15px;
+}
+
+.entrar_em_contato{
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+#mensagem{
+ width: 100%;
+ height: 100px;
+ border-radius: 10px;
+ padding: 10px;
+ box-sizing: border-box;
+
+}
+
+/*alterando o tamanho de todos os botoes ao mesmo tempo*/
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+/*alterar a aparencia apenas do botão increva-se*/
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+    width: 200px;
+    margin: auto;
+  
+}
+
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    /*primeiramente alteramos o tamanho da imagem*/
+    width: 160px;
+    border-radius: 50%;
+    /**/
+}
+
+
+.description{
+    /*Alerando as caracteristicas da div que contem a descirção do palestrante*/
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+.description P, .description h3{
+    margin-bottom: 20px;
+}
+.description h3{
+    font-size: 24px;
+}
+
+#creditos{
+    width: 100px;
+    background-color: chartreuse;
+    border: none;
+    margin: none;
+    
+}

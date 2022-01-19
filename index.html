@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- essa teg abaixo altera o icone que aparece na parte superior do navegador, onde fica o titulo da pagina -->
+    <link rel="icon" href="./imagem/icone.JPG" type="image/png">
+    <title>Workshop</title>
+</head>
+<body>
+
+        <div class="container">
+            <header>
+                <h1 class="title"> APRESENTAÇÂO PESSOAL  </h1>
+            </header>
+            <!--A tag section é uma seção, poderiamos ter utilizado uma div tbm-->
+            <section>
+                <div class="formContainer">
+                     <!--Incluindo a classe "mb" tanto no h2 quanto no paragrafo para aumentar o espaçamento entre eles-->
+                    <h2 class="mb">
+                        is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                           It was popularised in the 1960s with the release of Letraset sheets containing 
+                          
+                    </h2>
+                    <p class="mb">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum erat diam, non facilisis mauris volutpat nec. Fusce malesuada, neque nec suscipit venenatis, elit arcu auctor ex, vel imperdiet lacus justo sed eros. Etiam consectetur molestie posuere.
+                         Aenean commodo metus tempus libero euismod scelerisque
+                    </p>
+                    <p class="entrar_em_contato">
+                        Para Entrar em contato e consultar mais sobre os serviços, mande uma mensagem abaixo.
+                    </p>
+       
+                    <!--Dentro dessa cessao colocaremos um formulario-->
+                    <form>
+                        <!--o comando abaixo é a criação do campo nome-->
+                        <input id="name" name="name" type="text" placeholder="Digite seu Nome">
+                        <input id="email" name="email" type="text" placeholder="Email">
+                        <!--abaixo esta a configuração para fazer o MENU de seleção apra o estado-->
+                        
+                        <input id="assunto" type="text" name="assunto" placeholder="Titulo do assunto">
+                            <textarea id="mensagem" name="message" placeholder="Mensagem" ></textarea>
+
+                        <!--Botão interativo "INSCREVA-SE"-->
+                        <input id="bot_inscreva_se" type="submit" value="ENTRAR EM CONTATO">
+                    </form>
+                </div>
+             </section>
+
+             <!--Criação do Rodapé-->
+             <footer>
+                <img class="picture" src="./imagem/face.jpg" >
+                <div class="description">
+                    <h3>  Sobre  </h3>
+                    <p>
+                        Milena Leal é conhecida por sua determinação e ...
+                    
+                    </p>
+                    <p>
+                        Formada em Engeharia de Produção pela Universidade positivo ...
+                    </p>
+
+                </div>
+             </footer>
+
+            
+</div>
+
+
+</body>
+</html>
